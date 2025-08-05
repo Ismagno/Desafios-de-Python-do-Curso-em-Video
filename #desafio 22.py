@@ -1,0 +1,10 @@
+#desafio 22
+print('='*30)
+nome = str(input('Qual é seu nome completo? ')).strip()
+print(f'Nome com letras maiúsculas: {nome.upper()}')
+print(f'Nome com letras minúsculas: {nome.lower()}')
+print(f'Tem {len(nome)} caracteres no nome: {nome}')
+nj = (''.join(nome.split()))
+print(f'Tem {len(nj)} letras no nome {nome}')
+print(f'Tem {len((nome.split())[0])} letras no primeiro nome: {((nome.split())[0])}') 
+print('Seu nome tem: {}'.format(len(nome) - nome.count(' ')))
